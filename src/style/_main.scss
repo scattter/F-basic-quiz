@@ -1,0 +1,36 @@
+.content {
+  width: 80%;
+  background-color: #fff;
+  margin: 80px auto;
+
+  .n-header {
+    @extend .center-layout;
+    border-bottom: 3px solid $gray-light;
+    img {
+      width: $image-size;
+      height: $image-size;
+      border-radius: 50%;
+      transform: translate(-50%);
+      margin-left: 50%;
+      margin-top: -50px;
+    }
+  }
+
+  .description {
+    @extend .center-layout;
+  }
+
+  .education {
+    @extend .center-layout;
+    padding-bottom: 50px;
+    .info {
+      display: flex;
+      justify-content: space-between;
+    }
+    .detail {
+      width: 90%;
+      padding: 1%;
+      background-color: $gray-light;
+    }
+  }
+}

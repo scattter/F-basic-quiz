@@ -30,3 +30,17 @@ a {
     color: $link-hover-color;
   }
 }
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h3 {
+  color: $primary-color;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
